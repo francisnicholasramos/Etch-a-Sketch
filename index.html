@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <img src="images/sketch.png" class="sketch">
+        </div>
+
+        <div class="main">
+            <div class="box" id="box"></div>
+
+            <div class="buttons">
+                <input type="color" class="picker" value="#3a3a3a">
+                
+                <button class="pencil">
+                    <img src="images/pencil_black.png" height="25px" width="30px">
+                </button>
+                <button class='random'>
+                    <img src="images/random_black.png" height="25px" width="30px">
+                </button>
+                <button class="eraser">
+                    <img src="images/eraser_black.png" height="25px" width="30px">
+                </button>
+                <button class="reset">
+                    <img src="images/reset.png" height="25px" width="30px">
+                </button>
+                <button class="export">
+                    <img src="images/save.png" height="25px">
+                </button>
+            </div>
+        </div>
+     
+        <input type="range" value='16' min="1" max="64" class="slider">
+        <p class="value" style="color: white;">
+            <span class="size">1</span> x <span class="size"></span>
+        </p>
+
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Copyright ©</p>
+        <script> document.write(new Date().getFullYear())</script>
+        fnicholasramos
+    </footer>
+
+<script src="scripts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</body>
+</html>
