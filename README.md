@@ -2,7 +2,7 @@
 
 This project is called Etch-A-Sketch Game!
 
-Live site: https://fnicholasramos.github.io/Etch-a-Sketch/
+Live site: https://francisnicholasramos.github.io/Etch-a-Sketch/
 
 
 You can fork my repo for your reference:)<br>
